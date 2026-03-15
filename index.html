@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Traffic Lights Simulator</title>
+                <link rel="stylesheet" href="style.css">
+                </head>
+                <body>
+                    <div class="container">
+                            <h1>🚦 Traffic Light Simulator</h1>
+                                    
+                   <!-- Traffic light housing -->
+                      <div class="traffic-light">
+                      <div class="light red" id="redLight"></div>
+                      <div class="light yellow" id="yellowLight"></div>
+                      <div class="light green" id="greenLight"></div>
+                    </div>
+                                                                                                        
+                    <!-- Control buttons -->
+                    <div class="controls">
+                    <button onclick="changeLight('red')" class="btn red-btn">Red</button>
+                    <button onclick="changeLight('yellow')" class="btn yellow-btn">Yellow</button>
+                    <button onclick="changeLight('green')" class="btn green-btn">Green</button>
+                    </div>
+                                                                                                                                                                            
+                    <!-- Status message -->
+                  <div class="message" id="message">
+                  Click a button to change the light
+                  </div>
+                  </div>
+                                                                                                                                                                                                                    
+<script src="script.js"></script>
+</body>
+ </html>.
