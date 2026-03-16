@@ -1,8 +1,8 @@
-# Traffic.html
+# Traffic.html :
 Traffic Light Simulator
 A simple, interactive traffic light simulator built with HTML, CSS, and JavaScript.
 
-Features
+Features:
 Manual Control: Click buttons to change between red, yellow, and green lights
 
 Visual Feedback: Each light illuminates with a glowing effect when active
@@ -17,7 +17,7 @@ Click the colored buttons to change the traffic light
 
 Watch the active light glow and read the corresponding message
 
-Technologies Used
+Technologies Used:
 HTML5
 CSS3 (Flexbox, Gradients, Animations)
 JavaScript (DOM Manipulation, Event Handling)
